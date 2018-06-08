@@ -1,0 +1,87 @@
+#Authors: DragonSlayer, Caloriee
+#Make sure to keep everything in quotes if it is already in quotes
+#Requires vault!
+
+#Prefix for this plugin, if you don't want one leave it blank use %PREFIX% anywhere to use your prefix
+prefix: "&8[&7HeadHunter&8]"
+
+
+#If this is true it puts the head in the killers inventory automatically.  Will not drop on ground if inventory is full
+put-head-in-inventory-on-death: false
+
+
+#Lore for the head use %PRICE% for the price of the head
+headlore: "%PREFIX% &7This head sells for &2$&a%PRICE%"
+
+
+#Percent of the players balance you want the head to sell for.
+#Do not go lower than 1 or it will take money.
+#Default is 20%
+price-percent: 20.0
+
+
+#Chance of player head to drop. over 100 is 100%
+player-head-drop-chance: 100
+
+
+#Head display name
+head-drop-display-name: "%PREFIX% &d%PLAYER%'s &7head"
+
+
+#Do you want the head to automatically be added to the inventory?
+head-add-to-inventory: "%PREFIX% &d%PLAYER% &7head has been added to your inventory!"
+
+
+#Message they get when you sell %AMOUNT% is the amount of heads, %PLAYERHEAD% is the players name or mob name, and %SELLAMOUNT% is the sellamount
+sell-message: "%PREFIX% &7You sold %AMOUNT% of &d%PLAYERHEAD%'s &7head for &2$&a%SELLAMOUNT%"
+
+
+#sell heads on right click or using a gui and command
+sell-heads-on-right-click: true
+
+
+#Mob head drop chance
+mob-head-drop-chance: 100
+
+
+#Should the mob head go into the players inventory when it dies?
+put-mob-head-in-inventory-on-death: false
+
+
+#Message they get when you sell %AMOUNT% is the amount of heads, %MOBHEAD% is the players name or mob name, and %SELLAMOUNT% is the sellamount
+mob-sell-message: "%PREFIX% &7You sold %AMOUNT% of &d%MOBHEAD% &7head for &2$&a%SELLAMOUNT%"
+
+
+#Use %MOB% to get the mob name
+mob-head-drop-display-name: "%PREFIX% &d%MOB% &7Head"
+
+
+#Use %PRICE% for price of head
+mob-headlore: "%PREFIX% &7Sells for &2$&3%PRICE%"
+
+
+
+
+
+Blaze-price: 35.00
+CaveSpider-price: 25.00
+Zombie-price: 25.00
+Chicken-price: 15.00
+Cow-price: 15.00
+Golem-price: 45.00
+Creeper-price: 37.50
+Enderman-price: 37.50
+Ghast-price: 125.00
+LavaSlime-price: 125.00
+MushroomCow-price: 45.00
+Ocelot-price: 25.00
+Pig-price: 15.00
+PigZombie-price: 35.00
+Sheep-price: 15.00
+Skeleton-price: 25.00
+Slime-price: 75.50
+Spider-price: 50.00
+Squid-price: 35.00
+Villager-price: 90.50
+WSkeleton-price: 150.50
+Rabbit-price: 25.50

@@ -1,0 +1,5 @@
+name: HeadHunter
+version: 1.0
+main: me.src.HeadHunter.Main
+author: DragonSlayer
+depend: [Vault]
